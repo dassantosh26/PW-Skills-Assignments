@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background: #09081f;
+  /* background: aquamarine; */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+}
+.navitems {
+  display: flex;
+  align-content: center;
+  gap: 25px;
+  list-style: none;
+  color: #ffffffbd;
+  font-size: 22px;
+}
+.home {
+  background: rgb(116, 116, 241);
+  border-radius: 8px;
+  padding: 5px;
+}
+img[alt="hambrger-logo"] {
+  height: 25px;
+  display: none;
+}
+img[alt="Hi-image"] {
+  height: 20px;
+}
+img[alt="pc-image"] {
+  width: 30vw;
+}
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  color: white;
+}
+.intro-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.intro-name h1 {
+  font-size: 60px;
+  color: whitesmoke;
+}
+.intro-name h2 {
+  font-size: 35px;
+  color: rgb(197, 197, 89);
+}
+
+img[alt="project thumblins"] {
+  width: 20vw;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projects h1 {
+  font-size: 40px;
+  margin-top: 50px;
+  color: white;
+}
+.project p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+.horizontal-line {
+  height: 10px;
+  width: 150px;
+  background: blue;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.project-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+img[alt="github-logo"] {
+  width: 30px;
+}
+img[alt="linkedin-logo"] {
+  width: 30px;
+}
+img[alt="outlook-logo"] {
+  width: 30px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h1 {
+  font-size: 35px;
+  margin-top: 40px;
+  color: white;
+}
+.social-handels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.horizontal-line-contact {
+  height: 10px;
+  width: 180px;
+  background: blue;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+li,
+img:hover {
+  cursor: pointer;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px) {
+  .navitems {
+    display: none;
+  }
+  img[alt="hambrger-logo"] {
+    display: block;
+  }
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+  }
+  img[alt="pc-image"] {
+    width: 60vw;
+    margin-top: 25px;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+  }
+  .intro-name h1 {
+    font-size: 40px;
+  }
+  .intro-name h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .project-lists {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  img[alt="project-image"] {
+    width: 55vw;
+  }
+  .projects h1 {
+    font-size: 35px;
+  }
+  .contact h1 {
+    font-size: 35px;
+  }
+}

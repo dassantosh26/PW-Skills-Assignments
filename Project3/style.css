@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 200rem;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  padding: 0 auto;
+}
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 90px;
+  height: 80px;
+  background: #000;
+}
+.grow-list {
+  flex-grow: 1;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 75px;
+  margin-left: 50px;
+  color: white;
+}
+img {
+  width: 80px;
+  height: 40px;
+}
+.line {
+  width: 2px;
+  height: 60px;
+  background-color: #fff;
+  margin-left: 70px;
+}
+.nav-btn {
+  padding: 7px 28px;
+  background: #ba0cc5;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logo,
+.nav-items {
+  cursor: pointer;
+}
+/* Hero Section Styling */
+.hero-section {
+  background-image: url(./Assets/bcg5th.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+  text-align: center;
+}
+.hero-heading {
+  max-width: 850px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 98px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 172px;
+}
+
+.hero-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.hero-btn {
+  background: #ba0cc5;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: #ffffff;
+  border: none;
+  padding: 14px 22px;
+  margin-top: 64px;
+  cursor: pointer;
+}

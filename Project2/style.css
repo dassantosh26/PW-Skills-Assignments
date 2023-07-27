@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 150rem;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  padding: 0 50px;
+}
+/* Navigation Bar Styling */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.grow-list {
+  flex-grow: 1;
+  padding-left: 50px;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 50px;
+  font-weight: 600;
+}
+.nav-btn,
+.banner-btn {
+  padding: 12px 20px;
+  background: #3d3dcf;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font: weight 700px;
+  font-size: 16px;
+}
+.logo {
+  cursor: pointer;
+}
+.nav-items li:hover {
+  cursor: pointer;
+  color: #3d3dcf;
+}
+/* Hero Section styling */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.heading-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  color: #3c2f60;
+}
+span {
+  color: #3d3dcf;
+}
+.description {
+  margin-top: 30px;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+.banner-btn {
+  margin-top: 50px;
+}
